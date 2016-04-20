@@ -12,10 +12,11 @@ var api = new ParseServer({
   databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || secrets.appId,
+  javascriptKey: process.env.JAVASCRIPT_KEY || secrets.javascriptKey,
   masterKey: process.env.MASTER_KEY || secrets.masterKey, //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || secrets.serverURL,  // Don't forget to change to https if needed
   liveQuery: {
-    classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
+    classNames: ["Journal"] // List of classes to support for query subscriptions
   }
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
