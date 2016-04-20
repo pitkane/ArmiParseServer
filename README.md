@@ -1,8 +1,8 @@
-# ArmiParse
+# ArmiParseServer
 
 Edit this out, and explain things out :)
 
-armiparse.mbit.fi/parse
+armiparseserver.mbit.fi/parse
 
 config_secrets.js
 ```
