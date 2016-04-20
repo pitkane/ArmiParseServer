@@ -11,7 +11,7 @@ config_secrets.js
 module.exports = {
   appId: '',
   masterKey: '',
-  parseURL: '',
+  serverURL: '',
   databaseURL: ''
 };
 ```
