@@ -5,7 +5,7 @@ Edit this out, and explain things out :)
 armiparse.mbit.fi/parse
 
 config_secrets.js
-
+```
 // Hold application secrets and config
 
 module.exports = {
@@ -14,12 +14,15 @@ module.exports = {
   parseURL: '',
   databaseURL: ''
 };
+```
 
 ---
+```
 git pull, etc...
 pm2 start index.js --name="ArmiParse"
 pm2 reload ArmiParse
 pm2 logs, if needed
+```
 ---
 
 Example project using the [parse-server](https://github.com/ParsePlatform/parse-server) module on Express.
