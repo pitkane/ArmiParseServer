@@ -19,7 +19,7 @@ module.exports = {
 ---
 ```
 git pull, etc...
-pm2 start index.js --name="ArmiParse"
+pm2 start index.js --name="ArmiParseServer"
 pm2 reload ArmiParse
 pm2 logs, if needed
 ```
